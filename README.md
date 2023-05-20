@@ -47,7 +47,18 @@ db.personData.find({ "favorites.movie": "The Shawshank Redemption" }).count();
 
 **Task 6:** Update the zipcode of the user with the email "**[johndoe@example.com](mailto:johndoe@example.com)**" to "10002".
 
+```ts
+db.personData.updateOne(
+  { email: "johndoe@example.com" },
+  { $set: { "address.zipcode": "10002" } }
+);
+```
+
 **Task 7:** Delete the user with the email "**[alicewilliams@example.com](mailto:alicewilliams@example.com)**" from the user data.
+
+```ts
+db.personData.deleteOne({ email: "alicewilliams@example.com" });
+```
 
 **Task 8**: Group users by their favorite movie and retrieve the average age in each movie group.
 

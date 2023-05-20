@@ -1,5 +1,551 @@
 [
   {
+    "name": "John Smith",
+    "email": "johnsmith@example.com",
+    "age": 30,
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "10001"
+    },
+    "favorites": {
+      "color": "blue",
+      "food": "pizza",
+      "movie": "The Shawshank Redemption"
+    },
+    "friends": [
+      {
+        "name": "Emily Johnson",
+        "email": "emilyjohnson@example.com"
+      },
+      {
+        "name": "Michael Anderson",
+        "email": "michaelanderson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Sarah Thompson",
+    "email": "sarahthompson@example.com",
+    "age": 35,
+    "address": {
+      "street": "789 Elm St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipcode": "90001"
+    },
+    "favorites": {
+      "color": "purple",
+      "food": "pasta",
+      "movie": "The Godfather"
+    },
+    "friends": [
+      {
+        "name": "David Johnson",
+        "email": "davidjohnson@example.com"
+      },
+      {
+        "name": "Jessica Davis",
+        "email": "jessicadavis@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Robert Wilson",
+    "email": "robertwilson@example.com",
+    "age": 40,
+    "address": {
+      "street": "567 Oak St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipcode": "60601"
+    },
+    "favorites": {
+      "color": "green",
+      "food": "steak",
+      "movie": "The Dark Knight"
+    },
+    "friends": [
+      {
+        "name": "Olivia Brown",
+        "email": "oliviabrown@example.com"
+      },
+      {
+        "name": "Daniel Taylor",
+        "email": "danieltaylor@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Jennifer Davis",
+    "email": "jenniferdavis@example.com",
+    "age": 28,
+    "address": {
+      "street": "234 Maple St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipcode": "94101"
+    },
+    "favorites": {
+      "color": "red",
+      "food": "burgers",
+      "movie": "Inception"
+    },
+    "friends": [
+      {
+        "name": "William Johnson",
+        "email": "williamjohnson@example.com"
+      },
+      {
+        "name": "Sophia Thompson",
+        "email": "sophiathompson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Michael Anderson",
+    "email": "michaelanderson@example.com",
+    "age": 32,
+    "address": {
+      "street": "345 Pine St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipcode": "98101"
+    },
+    "favorites": {
+      "color": "orange",
+      "food": "tacos",
+      "movie": "The Matrix"
+    },
+    "friends": [
+      {
+        "name": "Emma Wilson",
+        "email": "emmawilson@example.com"
+      },
+      {
+        "name": "Andrew Thompson",
+        "email": "andrewthompson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Emily Johnson",
+    "email": "emilyjohnson@example.com",
+    "age": 29,
+    "address": {
+      "street": "678 Oak St",
+      "city": "Boston",
+      "state": "MA",
+      "zipcode": "02101"
+    },
+    "favorites": {
+      "color": "pink",
+      "food": "ice cream",
+      "movie": "The Lion King"
+    },
+    "friends": [
+      {
+        "name": "Jacob Davis",
+        "email": "jacobdavis@example.com"
+      },
+      {
+        "name": "Ava Thompson",
+        "email": "avathompson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Daniel Wilson",
+    "email": "danielwilson@example.com",
+    "age": 33,
+    "address": {
+      "street": "901 Elm St",
+      "city": "Dallas",
+      "state": "TX",
+      "zipcode": "75201"
+    },
+    "favorites": {
+      "color": "yellow",
+      "food": "sushi",
+      "movie": "Pulp Fiction"
+    },
+    "friends": [
+      {
+        "name": "Mia Davis",
+        "email": "miadavis@example.com"
+      },
+      {
+        "name": "Ethan Johnson",
+        "email": "ethanjohnson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Olivia Thompson",
+    "email": "oliviathompson@example.com",
+    "age": 27,
+    "address": {
+      "street": "456 Maple St",
+      "city": "Houston",
+      "state": "TX",
+      "zipcode": "77001"
+    },
+    "favorites": {
+      "color": "teal",
+      "food": "chocolate",
+      "movie": "Fight Club"
+    },
+    "friends": [
+      {
+        "name": "Noah Johnson",
+        "email": "noahjohnson@example.com"
+      },
+      {
+        "name": "Isabella Davis",
+        "email": "isabelladavis@example.com"
+      }
+    ]
+  },
+  {
+    "name": "David Thompson",
+    "email": "davidthompson@example.com",
+    "age": 31,
+    "address": {
+      "street": "789 Pine St",
+      "city": "Atlanta",
+      "state": "GA",
+      "zipcode": "30301"
+    },
+    "favorites": {
+      "color": "black",
+      "food": "sushi",
+      "movie": "The Lord of the Rings"
+    },
+    "friends": [
+      {
+        "name": "Sophia Davis",
+        "email": "sophiadavis@example.com"
+      },
+      {
+        "name": "Jackson Wilson",
+        "email": "jacksonwilson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Sophia Wilson",
+    "email": "sophiawilson@example.com",
+    "age": 25,
+    "address": {
+      "street": "567 Elm St",
+      "city": "Denver",
+      "state": "CO",
+      "zipcode": "80201"
+    },
+    "favorites": {
+      "color": "silver",
+      "food": "pizza",
+      "movie": "The Notebook"
+    },
+    "friends": [
+      {
+        "name": "Ethan Davis",
+        "email": "ethandavis@example.com"
+      },
+      {
+        "name": "Ava Johnson",
+        "email": "avajohnson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Jacob Wilson",
+    "email": "jacobwilson@example.com",
+    "age": 29,
+    "address": {
+      "street": "123 Oak St",
+      "city": "Austin",
+      "state": "TX",
+      "zipcode": "78701"
+    },
+    "favorites": {
+      "color": "blue",
+      "food": "sushi",
+      "movie": "The Dark Knight"
+    },
+    "friends": [
+      {
+        "name": "Olivia Davis",
+        "email": "oliviadavis@example.com"
+      },
+      {
+        "name": "Noah Thompson",
+        "email": "noahthompson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Mia Thompson",
+    "email": "miathompson@example.com",
+    "age": 27,
+    "address": {
+      "street": "456 Elm St",
+      "city": "San Diego",
+      "state": "CA",
+      "zipcode": "92101"
+    },
+    "favorites": {
+      "color": "purple",
+      "food": "pasta",
+      "movie": "The Shawshank Redemption"
+    },
+    "friends": [
+      {
+        "name": "Ethan Davis",
+        "email": "ethandavis@example.com"
+      },
+      {
+        "name": "Sophia Wilson",
+        "email": "sophiawilson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Noah Davis",
+    "email": "noahdavis@example.com",
+    "age": 31,
+    "address": {
+      "street": "789 Maple St",
+      "city": "Portland",
+      "state": "OR",
+      "zipcode": "97201"
+    },
+    "favorites": {
+      "color": "green",
+      "food": "tacos",
+      "movie": "The Avengers"
+    },
+    "friends": [
+      {
+        "name": "Isabella Thompson",
+        "email": "isabellathompson@example.com"
+      },
+      {
+        "name": "Jackson Davis",
+        "email": "jacksondavis@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Emily Davis",
+    "email": "emilydavis@example.com",
+    "age": 33,
+    "address": {
+      "street": "345 Pine St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipcode": "98101"
+    },
+    "favorites": {
+      "color": "red",
+      "food": "burgers",
+      "movie": "Inception"
+    },
+    "friends": [
+      {
+        "name": "William Johnson",
+        "email": "williamjohnson@example.com"
+      },
+      {
+        "name": "Sophia Thompson",
+        "email": "sophiathompson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Ethan Thompson",
+    "email": "ethanthompson@example.com",
+    "age": 28,
+    "address": {
+      "street": "678 Oak St",
+      "city": "Boston",
+      "state": "MA",
+      "zipcode": "02101"
+    },
+    "favorites": {
+      "color": "pink",
+      "food": "ice cream",
+      "movie": "The Lion King"
+    },
+    "friends": [
+      {
+        "name": "Jacob Davis",
+        "email": "jacobdavis@example.com"
+      },
+      {
+        "name": "Ava Thompson",
+        "email": "avathompson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Isabella Davis",
+    "email": "isabelladavis@example.com",
+    "age": 26,
+    "address": {
+      "street": "901 Elm St",
+      "city": "Dallas",
+      "state": "TX",
+      "zipcode": "75201"
+    },
+    "favorites": {
+      "color": "yellow",
+      "food": "sushi",
+      "movie": "Pulp Fiction"
+    },
+    "friends": [
+      {
+        "name": "Mia Davis",
+        "email": "miadavis@example.com"
+      },
+      {
+        "name": "Ethan Johnson",
+        "email": "ethanjohnson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Jackson Wilson",
+    "email": "jacksonwilson@example.com",
+    "age": 25,
+    "address": {
+      "street": "456 Maple St",
+      "city": "Houston",
+      "state": "TX",
+      "zipcode": "77001"
+    },
+    "favorites": {
+      "color": "teal",
+      "food": "chocolate",
+      "movie": "Fight Club"
+    },
+    "friends": [
+      {
+        "name": "Noah Johnson",
+        "email": "noahjohnson@example.com"
+      },
+      {
+        "name": "Isabella Davis",
+        "email": "isabelladavis@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Sophia Davis",
+    "email": "sophiadavis@example.com",
+    "age": 30,
+    "address": {
+      "street": "789 Pine St",
+      "city": "Atlanta",
+      "state": "GA",
+      "zipcode": "30301"
+    },
+    "favorites": {
+      "color": "black",
+      "food": "sushi",
+      "movie": "The Lord of the Rings"
+    },
+    "friends": [
+      {
+        "name": "David Thompson",
+        "email": "davidthompson@example.com"
+      },
+      {
+        "name": "Jacob Wilson",
+        "email": "jacobwilson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Olivia Thompson",
+    "email": "oliviathompson@example.com",
+    "age": 24,
+    "address": {
+      "street": "567 Elm St",
+      "city": "Denver",
+      "state": "CO",
+      "zipcode": "80201"
+    },
+    "favorites": {
+      "color": "silver",
+      "food": "pizza",
+      "movie": "The Notebook"
+    },
+    "friends": [
+      {
+        "name": "Ethan Davis",
+        "email": "ethandavis@example.com"
+      },
+      {
+        "name": "Sophia Wilson",
+        "email": "sophiawilson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "David Johnson",
+    "email": "davidjohnson@example.com",
+    "age": 27,
+    "address": {
+      "street": "789 Pine St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipcode": "98101"
+    },
+    "favorites": {
+      "color": "orange",
+      "food": "tacos",
+      "movie": "The Matrix"
+    },
+    "friends": [
+      {
+        "name": "Emily Davis",
+        "email": "emilydavis@example.com"
+      },
+      {
+        "name": "William Thompson",
+        "email": "williamthompson@example.com"
+      }
+    ]
+  },
+  {
+    "name": "Sophia Johnson",
+    "email": "sophiajohnson@example.com",
+    "age": 29,
+    "address": {
+      "street": "567 Oak St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipcode": "94101"
+    },
+    "favorites": {
+      "color": "purple",
+      "food": "pasta",
+      "movie": "The Shawshank Redemption"
+    },
+    "friends": [
+      {
+        "name": "Daniel Davis",
+        "email": "danieldavis@example.com"
+      },
+      {
+        "name": "Emma Wilson",
+        "email": "emmawilson@example.com"
+      }
+    ]
+  },
+  {
     "name": "John Doe",
     "email": "johndoe@example.com",
     "age": 28,
@@ -26,9 +572,9 @@
     ]
   },
   {
-    "name": "Alice Smith",
-    "email": "alicesmith@example.com",
-    "age": 32,
+    "name": "Alice Williams",
+    "email": "alicewilliams@example.com",
+    "age": 35,
     "address": {
       "street": "456 Elm St",
       "city": "San Francisco",
@@ -38,7 +584,7 @@
     "favorites": {
       "color": "green",
       "food": "sushi",
-      "movie": "Pulp Fiction"
+      "movie": "The Godfather"
     },
     "friends": [
       {
@@ -48,214 +594,6 @@
       {
         "name": "Emily Davis",
         "email": "emilydavis@example.com"
-      }
-    ]
-  },
-  {
-    "name": "David Johnson",
-    "email": "davidjohnson@example.com",
-    "age": 40,
-    "address": {
-      "street": "789 Oak St",
-      "city": "Chicago",
-      "state": "IL",
-      "zipcode": "60601"
-    },
-    "favorites": {
-      "color": "red",
-      "food": "burger",
-      "movie": "The Godfather"
-    },
-    "friends": [
-      {
-        "name": "Sarah Thompson",
-        "email": "sarahthompson@example.com"
-      },
-      {
-        "name": "Michael Brown",
-        "email": "michaelbrown@example.com"
-      }
-    ]
-  },
-  {
-    "name": "Emily Wilson",
-    "email": "emilywilson@example.com",
-    "age": 27,
-    "address": {
-      "street": "987 Pine St",
-      "city": "Los Angeles",
-      "state": "CA",
-      "zipcode": "90001"
-    },
-    "favorites": {
-      "color": "purple",
-      "food": "tacos",
-      "movie": "Inception"
-    },
-    "friends": [
-      {
-        "name": "Olivia Davis",
-        "email": "oliviadavis@example.com"
-      },
-      {
-        "name": "Noah Thompson",
-        "email": "noahthompson@example.com"
-      }
-    ]
-  },
-  {
-    "name": "Sophia Anderson",
-    "email": "sophiaanderson@example.com",
-    "age": 35,
-    "address": {
-      "street": "321 Cedar St",
-      "city": "Seattle",
-      "state": "WA",
-      "zipcode": "98101"
-    },
-    "favorites": {
-      "color": "yellow",
-      "food": "pasta",
-      "movie": "The Dark Knight"
-    },
-    "friends": [
-      {
-        "name": "James Wilson",
-        "email": "jameswilson@example.com"
-      },
-      {
-        "name": "Ava Thompson",
-        "email": "avathompson@example.com"
-      }
-    ]
-  },
-  {
-    "name": "Liam Davis",
-    "email": "liamdavis@example.com",
-    "age": 31,
-    "address": {
-      "street": "555 Maple St",
-      "city": "Denver",
-      "state": "CO",
-      "zipcode": "80201"
-    },
-    "favorites": {
-      "color": "orange",
-      "food": "steak",
-      "movie": "The Matrix"
-    },
-    "friends": [
-      {
-        "name": "Charlotte Wilson",
-        "email": "charlottewilson@example.com"
-      },
-      {
-        "name": "Oliver Smith",
-        "email": "oliversmith@example.com"
-      }
-    ]
-  },
-  {
-    "name": "Mia Thompson",
-    "email": "miathompson@example.com",
-    "age": 29,
-    "address": {
-      "street": "222 Oak St",
-      "city": "Houston",
-      "state": "TX",
-      "zipcode": "77001"
-    },
-    "favorites": {
-      "color": "pink",
-      "food": "ice cream",
-      "movie": "Titanic"
-    },
-    "friends": [
-      {
-        "name": "Ethan Davis",
-        "email": "ethandavis@example.com"
-      },
-      {
-        "name": "Emma Wilson",
-        "email": "emmawilson@example.com"
-      }
-    ]
-  },
-  {
-    "name": "Oliver Wilson",
-    "email": "oliverwilson@example.com",
-    "age": 33,
-    "address": {
-      "street": "777 Elm St",
-      "city": "Boston",
-      "state": "MA",
-      "zipcode": "02101"
-    },
-    "favorites": {
-      "color": "black",
-      "food": "chocolate",
-      "movie": "Fight Club"
-    },
-    "friends": [
-      {
-        "name": "Charlotte Davis",
-        "email": "charlottedavis@example.com"
-      },
-      {
-        "name": "William Smith",
-        "email": "williamsmith@example.com"
-      }
-    ]
-  },
-  {
-    "name": "Ava Johnson",
-    "email": "avajohnson@example.com",
-    "age": 26,
-    "address": {
-      "street": "444 Pine St",
-      "city": "Miami",
-      "state": "FL",
-      "zipcode": "33101"
-    },
-    "favorites": {
-      "color": "silver",
-      "food": "sushi",
-      "movie": "The Avengers"
-    },
-    "friends": [
-      {
-        "name": "James Davis",
-        "email": "jamesdavis@example.com"
-      },
-      {
-        "name": "Charlotte Thompson",
-        "email": "charlottethompson@example.com"
-      }
-    ]
-  },
-  {
-    "name": "William Smith",
-    "email": "williamsmith@example.com",
-    "age": 30,
-    "address": {
-      "street": "888 Maple St",
-      "city": "Dallas",
-      "state": "TX",
-      "zipcode": "75201"
-    },
-    "favorites": {
-      "color": "gold",
-      "food": "hamburger",
-      "movie": "Forrest Gump"
-    },
-    "friends": [
-      {
-        "name": "Emma Davis",
-        "email": "emmadavis@example.com"
-      },
-      {
-        "name": "Oliver Thompson",
-        "email": "oliverthompson@example.com"
       }
     ]
   }
